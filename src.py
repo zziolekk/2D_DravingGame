@@ -24,8 +24,8 @@ class Auto(pygame.sprite.Sprite):           #class tworząca samochód
         self.rect.y = y
         self.predkosc = 0
     
-        def aktualizuj(self):   #logika poruszania się
-            pass
+    def aktualizuj(self):   #logika poruszania się
+        pass
 
 
 
@@ -56,4 +56,4 @@ while uruchomiona: # uruchomiona główna pętla
     pygame.display.flip() # Odśwież ekran
     
 pygame.quit()
-    
+
